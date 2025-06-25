@@ -1,0 +1,174 @@
+/* Hero Section */
+#hero {
+    background: linear-gradient(145deg, #0a0a0a 60%, #1a1a2e 80%);
+    padding: 6rem 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-text h1 {
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    min-height: 180px;
+}
+
+.hero-text .lead {
+    font-size: 1.25rem;
+    max-width: 90%;
+    opacity: 0.85;
+    margin-bottom: 2rem;
+}
+
+/* Spline Container */
+.spline-col {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.spline-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease;
+}
+
+/* .spline-container:hover {
+    transform: scale(1.02);
+} */
+
+.spline-scene {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Custom Cursor Animation */
+.blinking-cursor {
+    color: #0d6efd;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+/* Button Styling */
+.hire-btn {
+    background: #0d6efd;
+    border: 2px solid #0d6efd;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.hire-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.hire-btn:hover::before {
+    left: 100%;
+}
+
+.hire-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+        border-color: #0b5ed7 !important;
+        color: #0b5ed7 !important;
+}
+
+.btn-outline-light:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Project Button Styling */
+.project-btn {
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid #0b5ed7 !important;
+    color: #0b5ed7 !important;
+    transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+    background: #0b5ed7 !important;
+    border-color: #0b5ed7 !important;
+    color: white !important;
+    /* Fixed text color on hover */
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 992px) {
+    #hero {
+        text-align: center;
+        padding: 4rem 0;
+    }
+
+    .hero-text .lead {
+        max-width: 100%;
+        margin: 0 auto 2rem;
+    }
+
+    .hero-text h1 {
+        min-height: 150px;
+    }
+
+    .spline-container {
+        max-width: 500px;
+        margin: 2rem auto 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2.5rem;
+        min-height: 120px;
+    }
+
+    .spline-container {
+        padding-bottom: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-text h1 {
+        font-size: 2rem;
+        min-height: 100px;
+    }
+
+    .hero-text .lead {
+        font-size: 1rem;
+    }
+
+    .spline-container {
+        padding-bottom: 100%;
+    }
+}

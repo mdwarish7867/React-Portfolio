@@ -1,61 +1,117 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import dp from "./img/dp.jpeg"; 
+import React, { useEffect } from "react";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import "./about.css";
+import profileImage from "./img/dp.jpeg"; // Import your profile image
 
 const About = () => {
+  useEffect(() => {
+    // Initialize animation effects
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animate");
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    document
+      .querySelectorAll(".about-content, .about-photo-container")
+      .forEach((el) => {
+        observer.observe(el);
+      });
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section id="about" className="about-section">
       <Container>
-        <div className="section-header">
-          <h2 className="section-title">About Me</h2>
-          <div className="section-divider"></div>
-        </div>
-
         <Row className="align-items-center">
-          <Col lg={4} className="about-photo-col">
+          <Col lg={6} className="about-photo-col">
             <div className="about-photo-container">
               <div className="photo-frame">
-                <img src={dp} alt="Profile" className="photo-img" />
-                <div className="photo-decoration"></div>
+                <div className="photo-img">
+                  <div
+                    className="profile-image"
+                    style={{ backgroundImage: `url(${profileImage})` }}
+                  ></div>
+                  <div className="decoration-circle blue"></div>
+                  <div className="decoration-circle purple"></div>
+                  <div className="decoration-ring"></div>
+                  <div className="tech-dot dot1"></div>
+                  <div className="tech-dot dot2"></div>
+                  <div className="tech-dot dot3"></div>
+                </div>
               </div>
             </div>
           </Col>
 
-          <Col lg={8} className="about-content">
-            
-            <p className="about-text">
-              I'm a passionate full-stack developer and Computer Science &
-              Engineering student with a deep focus on creating intuitive,
-              high-performance web experiences. My journey began with curiosity
-              about how things work behind the screen — and that curiosity soon
-              turned into a commitment to building user-friendly, accessible,
-              and responsive applications.
-            </p>
+          <Col lg={6} className="about-content">
+            <div className="content-wrapper">
+              <div className="greeting-text">Hello!</div>
+              <h1 className="name-title">
+                I am <span className="highlight">Mohammad Warish Ansari</span>
+              </h1>
 
-            <p className="about-text">
-              Over time, I've explored diverse domains including front-end
-              development with React and Bootstrap, back-end logic with Node.js,
-              and database integration using SQL and MongoDB. I thrive on
-              transforming creative ideas into real-world digital solutions that
-              make a difference. I believe that a clean interface and clean code
-              go hand in hand, and I always aim for both.
-            </p>
+              <p className="about-text">
+                I'm a B.Tech Computer Science & Engineering student who loves
+                solving problems through code. I specialize in creating clean,
+                responsive websites and continuously explore emerging tech like
+                AI, cybersecurity, and ethical hacking. With multiple
+                certifications, self-initiated projects, and an eagerness to
+                grow, I’m actively building my path in the tech world.
+              </p>
 
-            <p className="about-text">
-              My approach combines technical precision with a creative mindset.
-              I continuously challenge myself by learning modern tools and
-              frameworks, whether it's enhancing UI/UX, exploring cybersecurity,
-              or experimenting with AI/ML concepts. 
-            </p>
+              <div className="cta-container">
+                <Button
+                  href="https://docs.google.com/document/d/1o1TT4McyquKT-CiAAgDu6f4YB8g7Fbt2svOUdnSlZic/edit?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="view-resume-btn"
+                >
+                  <i className="bi bi-file-earmark-pdf me-2"></i>
+                  View Resume
+                </Button>
+                <Button href="#projects" className="view-projects-btn">
+                  <i className="bi bi-code-slash me-2"></i>
+                  See What I've Built
+                </Button>
+              </div>
 
-            <div className="about-cta">
-              <a href="#contact" className="contact-btn">
-                Get in Touch
-              </a>
-              <a href="#projects" className="view-projects-btn">
-                View Projects
-              </a>
+              <div className="experience-container">
+                <div className="experience-item">
+                  <div className="exp-icon">
+                    <i className="bi bi-code-square"></i>
+                  </div>
+                  <div className="exp-details">
+                    <div className="exp-count">20+</div>
+                    <div className="exp-title">Projects</div>
+                  </div>
+                </div>
+
+                <div className="experience-item">
+                  <div className="exp-icon">
+                    <i className="bi bi-lightning-charge"></i>
+                  </div>
+                  <div className="exp-details">
+                    <div className="exp-count">2+</div>
+                    <div className="exp-title">Internships</div>
+                  </div>
+                </div>
+
+                <div className="experience-item">
+                  <div className="exp-icon">
+                    <i className="bi bi-award"></i>
+                  </div>
+                  <div className="exp-details">
+                    <div className="exp-count">15+</div>
+                    <div className="exp-title">Certifications</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </Col>
         </Row>

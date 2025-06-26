@@ -48,7 +48,7 @@ const CustomNavbar = () => {
   return (
     <Navbar fixed="top" expand="lg" className="bg-black py-3" variant="dark">
       <Container>
-        <Navbar.Brand href="#home" className="text-white">
+        <Navbar.Brand href="/" className="text-white">
           <i className="bi bi-laptop me-2 text-primary"></i>
           Portfolio
         </Navbar.Brand>

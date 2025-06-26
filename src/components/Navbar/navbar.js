@@ -116,15 +116,15 @@ const CustomNavbar = () => {
             </Nav.Link>
 
             <Nav.Link
-              href="#contact"
+              href="#experience"
               className={`mx-2 ${
-                activeSection.toLowerCase() === "contact"
+                activeSection.toLowerCase() === "experience"
                   ? "text-primary"
                   : "text-white"
               }`}
             >
-              <i className="bi bi-telephone-outbound me-2"></i>
-              Contact
+              <i className="bi bi-briefcase me-2"></i>
+              Experience
             </Nav.Link>
 
             <Nav.Link

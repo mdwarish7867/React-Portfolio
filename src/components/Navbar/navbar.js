@@ -15,32 +15,33 @@ const CustomNavbar = () => {
 
   // Scroll-based active section tracker
   useEffect(() => {
+    const sectionIds = [
+      "hero",
+      "about",
+      "skills",
+      "projects",
+      "certifications",
+      "experience",
+      "social",
+    ];
+
     const handleScroll = () => {
-      const sections = [
-        "home",
-        "about",
-        "skills",
-        "projects",
-        "certifications",
-        "contact",
-        "social",
-      ];
-      let found = "home";
+      const scrollY = window.scrollY + 150; // Adjust based on your navbar height
+      let currentSection = sectionIds[0];
 
-      sections.forEach((id) => {
+      for (let id of sectionIds) {
         const section = document.getElementById(id);
-        if (section) {
-          const rect = section.getBoundingClientRect();
-          if (rect.top <= 120 && rect.bottom >= 120) {
-            found = id;
-          }
+        if (section && section.offsetTop <= scrollY) {
+          currentSection = id;
         }
-      });
+      }
 
-      setActiveSection(found);
+      setActiveSection(currentSection);
     };
 
     window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Trigger once on mount
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -118,9 +119,7 @@ const CustomNavbar = () => {
             <Nav.Link
               href="#experience"
               className={`mx-2 ${
-                activeSection.toLowerCase() === "experience"
-                  ? "text-primary"
-                  : "text-white"
+                activeSection === "experience" ? "text-primary" : "text-white"
               }`}
             >
               <i className="bi bi-briefcase me-2"></i>

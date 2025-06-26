@@ -1,0 +1,77 @@
+/* Footer Styles */
+footer {
+  border-top: 1px solid rgba(13, 110, 253, 0.3);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(circle at 10% 20%, rgba(13, 110, 253, 0.03) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, rgba(108, 117, 125, 0.03) 0%, transparent 20%);
+  z-index: -1;
+}
+
+footer a {
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+footer a:after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #0d6efd;
+  transition: width 0.3s ease;
+}
+
+footer a:hover {
+  color: #0d6efd !important;
+}
+
+footer a:hover:after {
+  width: 100%;
+}
+
+.progress-bar {
+  transition: width 1s ease-in-out;
+}
+
+footer .btn-outline-primary {
+  border-width: 2px;
+}
+
+footer .btn-outline-primary:hover {
+  background-color: #0d6efd !important;
+  color: white !important;
+}
+
+/* Ensure text has proper contrast */
+footer .position-relative>* {
+  position: relative;
+  z-index: 2;
+}
+
+/* Use the same hire button style as navbar */
+.hire-btn {
+  transition: all 0.3s ease;
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+  color: white !important;
+}
+
+.hire-btn:hover {
+  background-color: #000 !important;
+  border-color: #0d6efd !important;
+  color: #0d6efd !important;
+}

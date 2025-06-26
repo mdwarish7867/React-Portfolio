@@ -84,11 +84,11 @@ const Certifications = () => {
       description:
         "🖥️ Completed a hands-on internship in Full Stack Web Development using Python. 🔧 Gained industry-oriented experience in web development with real-time projects and expert mentorship.",
       thumbnail:
-        "https://i.postimg.cc/gr90LskW/INTERNSHIP-FULL-STACK-WITH-PYTHON-page-0001.jpg",
+        "https://i.postimg.cc/fWGsQ52w/INTERNSHIP-FULL-STACK-WITH-PYTHON-page-0001.jpg",
       fullImage:
-        "https://i.postimg.cc/gr90LskW/INTERNSHIP-FULL-STACK-WITH-PYTHON-page-0001.jpg",
+        "https://i.postimg.cc/fWGsQ52w/INTERNSHIP-FULL-STACK-WITH-PYTHON-page-0001.jpg",
       verifyUrl:
-        "https://i.postimg.cc/gr90LskW/INTERNSHIP-FULL-STACK-WITH-PYTHON-page-0001.jpg",
+        "https://i.postimg.cc/fWGsQ52w/INTERNSHIP-FULL-STACK-WITH-PYTHON-page-0001.jpg",
       skills: [
         "HTML, CSS, JavaScript",
         "Python for Web Development",

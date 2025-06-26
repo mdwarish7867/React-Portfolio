@@ -18,9 +18,9 @@ import "./skills.css";
 
 const Skills = () => {
   const [inView, setInView] = useState(false);
+  const [showAll, setShowAll] = useState(false);
   const sectionRef = useRef(null);
 
-  // Intersection Observer for scroll animations
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -62,6 +62,8 @@ const Skills = () => {
     { name: "Django", icon: <DiDjango />, level: 60, color: "#092e20" },
   ];
 
+  const displayedSkills = showAll ? skills : skills.slice(0, 12);
+
   return (
     <section
       id="skills"
@@ -75,8 +77,14 @@ const Skills = () => {
         </div>
 
         <Row className="g-4 justify-content-center">
-          {skills.map((skill, index) => (
-            <Col key={index} lg={3} md={4} sm={6} className="skill-col">
+          {displayedSkills.map((skill, index) => (
+            <Col
+              key={skill.name}
+              lg={3}
+              md={4}
+              sm={6}
+              className="skill-col"
+            >
               <div
                 className="skill-card"
                 style={{
@@ -89,7 +97,7 @@ const Skills = () => {
                   {skill.icon}
                 </div>
                 <h3 className="skill-name">{skill.name}</h3>
-                <div className="skill-percentage">{skill.level}%</div> 
+                <div className="skill-percentage">{skill.level}%</div>
                 <div className="skill-progress">
                   <div
                     className="progress-bar"
@@ -106,6 +114,17 @@ const Skills = () => {
             </Col>
           ))}
         </Row>
+
+        {skills.length > 12 && (
+          <div className="text-center mt-4">
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className="btn btn-show-more"
+            >
+              {showAll ? "Show Less" : `Show More (${skills.length - 12} more)`}
+            </button>
+          </div>
+        )}
       </Container>
     </section>
   );

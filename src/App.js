@@ -7,6 +7,9 @@ import About from "./components/About/about";
 import Skills from "./components/Skills/skills";
 import Projects from "./components/Projects/projects";
 import Certification from "./components/Certifications/certifications";
+import Experience from "./components/Experience/Experience";
+import Social from "./components/Social/social";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
@@ -17,7 +20,9 @@ function App() {
       <Skills />
       <Projects />
       <Certification />
-      {/* Add more components as needed */}
+      <Experience />
+      <Social />
+      <Footer />
     </div>
   );
 }

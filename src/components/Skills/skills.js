@@ -20,7 +20,6 @@ import {
   SiNextdotjs,
   SiTypescript,
   SiRedux,
-  SiDocker,
   SiPostman,
   SiAxios,
   SiFirebase,

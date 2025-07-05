@@ -101,13 +101,13 @@ const Social = () => {
     {
       name: "GeeksforGeeks",
       icon: <SiGeeksforgeeks />,
-      url: "https://auth.geeksforgeeks.org/user/mdwarish7867/", // Adjust if different
+      url: "https://www.geeksforgeeks.org/user/warishann144/", // Adjust if different
       color: "#2F8D46",
     },
     {
       name: "HackerRank",
       icon: <SiHackerrank />,
-      url: "https://www.hackerrank.com/mdwarish7867", // Replace if different
+      url: "https://www.hackerrank.com/profile/warishansari018", // Replace if different
       color: "#2EC866",
     },
   ];

@@ -1,11 +1,17 @@
 // src/components/Social.js
 import React, { useRef, useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { SiGmail } from "react-icons/si";
+import {
+  SiGmail,
+  SiLeetcode,
+  SiGeeksforgeeks,
+  SiHackerrank,
+} from "react-icons/si";
+import { FaXTwitter } from "react-icons/fa6";
+
 import {
   FaGithub,
   FaLinkedinIn,
-  FaTwitter,
   FaInstagram,
   FaFacebookF,
   FaYoutube,
@@ -43,11 +49,12 @@ const Social = () => {
       color: "#0077B5",
     },
     {
-      name: "Twitter",
-      icon: <FaTwitter />,
+      name: "X (Twitter)",
+      icon: <FaXTwitter />,
       url: "https://x.com/mdwarish888",
-      color: "#1DA1F2",
+      color: "#000000", // X branding is black
     },
+
     {
       name: "Gmail",
       icon: <SiGmail />,
@@ -84,6 +91,24 @@ const Social = () => {
       icon: <FaDiscord />,
       url: "https://discord.com/mohammadwarishansari_47491",
       color: "#5865F2",
+    },
+    {
+      name: "LeetCode",
+      icon: <SiLeetcode />,
+      url: "https://leetcode.com/mdwarish7867/", // Change if different
+      color: "#FFA116",
+    },
+    {
+      name: "GeeksforGeeks",
+      icon: <SiGeeksforgeeks />,
+      url: "https://auth.geeksforgeeks.org/user/mdwarish7867/", // Adjust if different
+      color: "#2F8D46",
+    },
+    {
+      name: "HackerRank",
+      icon: <SiHackerrank />,
+      url: "https://www.hackerrank.com/mdwarish7867", // Replace if different
+      color: "#2EC866",
     },
   ];
 

@@ -67,7 +67,7 @@ const About = () => {
 
               <div className="cta-container">
                 <Button
-                  href="https://docs.google.com/document/d/1INgNyqxrnXfg8Uy5Ky43Ic8Bq7NP5LUc/edit?usp=drive_link&ouid=116961855449002075945&rtpof=true&sd=true"
+                  href="https://drive.google.com/drive/folders/1oAuFxm0ZOHpSErySDUs6sjHubDo0Wxi-?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="view-resume-btn"

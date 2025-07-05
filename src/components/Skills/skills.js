@@ -13,7 +13,22 @@ import {
   FaPython,
   FaJava,
 } from "react-icons/fa";
-import { SiMongodb, SiMysql, SiTailwindcss, SiExpress } from "react-icons/si";
+import {
+  SiMongodb,
+  SiMysql,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiTypescript,
+  SiRedux,
+  SiDocker,
+  SiPostman,
+  SiAxios,
+  SiFirebase,
+  SiOpenai,
+  SiGithubactions,
+  SiExpress,
+} from "react-icons/si";
+
 import "./skills.css";
 
 const Skills = () => {
@@ -40,10 +55,14 @@ const Skills = () => {
   }, []);
 
   const skills = [
+    // --- Frontend ---
     { name: "HTML5", icon: <FaHtml5 />, level: 95, color: "#e34f26" },
     { name: "CSS3", icon: <FaCss3Alt />, level: 90, color: "#264de4" },
-    { name: "JavaScript", icon: <FaJs />, level: 85, color: "#f7df1e" },
-    { name: "React", icon: <FaReact />, level: 80, color: "#61dafb" },
+    { name: "JavaScript", icon: <FaJs />, level: 90, color: "#f7df1e" },
+    { name: "TypeScript", icon: <SiTypescript />, level: 85, color: "#3178c6" },
+    { name: "React", icon: <FaReact />, level: 85, color: "#61dafb" },
+    { name: "Next.js", icon: <SiNextdotjs />, level: 80, color: "#000000" },
+    { name: "Redux", icon: <SiRedux />, level: 75, color: "#764abc" },
     { name: "Bootstrap", icon: <FaBootstrap />, level: 85, color: "#7952b3" },
     {
       name: "Tailwind CSS",
@@ -51,15 +70,38 @@ const Skills = () => {
       level: 75,
       color: "#38b2ac",
     },
-    { name: "Node.js", icon: <FaNodeJs />, level: 75, color: "#68a063" },
-    { name: "Express.js", icon: <SiExpress />, level: 70, color: "#000000" },
-    { name: "MongoDB", icon: <SiMongodb />, level: 65, color: "#47a248" },
+
+    // --- Backend & Databases ---
+    { name: "Node.js", icon: <FaNodeJs />, level: 80, color: "#68a063" },
+    { name: "Express.js", icon: <SiExpress />, level: 75, color: "#000000" },
+    { name: "MongoDB", icon: <SiMongodb />, level: 75, color: "#47a248" },
     { name: "MySQL", icon: <SiMysql />, level: 70, color: "#00758f" },
-    { name: "Git", icon: <FaGitAlt />, level: 80, color: "#f14e32" },
-    { name: "GitHub", icon: <FaGithub />, level: 85, color: "#181717" },
+    { name: "Django", icon: <DiDjango />, level: 65, color: "#092e20" },
+
+    // --- Tools & APIs ---
+    { name: "Git", icon: <FaGitAlt />, level: 85, color: "#f14e32" },
+    { name: "GitHub", icon: <FaGithub />, level: 90, color: "#181717" },
+    { name: "Postman", icon: <SiPostman />, level: 85, color: "#ff6c37" },
+    { name: "Axios", icon: <SiAxios />, level: 85, color: "#5a29e4" },
+    {
+      name: "GitHub Actions",
+      icon: <SiGithubactions />,
+      level: 60,
+      color: "#2088FF",
+    },
+
+    // --- AI & Firebase ---
+    { name: "OpenAI API", icon: <SiOpenai />, level: 65, color: "#000000" },
+    {
+      name: "Firebase Auth",
+      icon: <SiFirebase />,
+      level: 60,
+      color: "#FFA611",
+    },
+
+    // --- Programming Languages ---
     { name: "Python", icon: <FaPython />, level: 75, color: "#3776ab" },
-    { name: "Java", icon: <FaJava />, level: 65, color: "#007396" },
-    { name: "Django", icon: <DiDjango />, level: 60, color: "#092e20" },
+    { name: "Java", icon: <FaJava />, level: 70, color: "#007396" },
   ];
 
   const displayedSkills = showAll ? skills : skills.slice(0, 12);
@@ -78,13 +120,7 @@ const Skills = () => {
 
         <Row className="g-4 justify-content-center">
           {displayedSkills.map((skill, index) => (
-            <Col
-              key={skill.name}
-              lg={3}
-              md={4}
-              sm={6}
-              className="skill-col"
-            >
+            <Col key={skill.name} lg={3} md={4} sm={6} className="skill-col">
               <div
                 className="skill-card"
                 style={{

@@ -62,20 +62,25 @@ const Certifications = () => {
 
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
-    // {
-    //   id: 13,
-    //   name: "Full Stack Web Development",
-    //   authority: "Coursera",
-    //   date: "March 2025",
-    //   description:
-    //     "Comprehensive training in building end-to-end web applications with MERN stack.",
-    //   thumbnail:
-    //     "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000",
-    //   fullImage:
-    //     "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000",
-    //   verifyUrl: "#",
-    //   skills: ["MongoDB", "Express.js", "React", "Node.js", "REST APIs"],
-    // },
+    {
+      "id": 13,
+      "name": "Full Stack Web Development With MERN STACK & GenAI 2025",
+      "authority": "Udemy (Masynctech Coding School)",
+      "date": "July 2025",
+      "description": "🚀 Completed an 89.5-hour hands-on course on MERN Stack and GenAI. Developed full stack web applications and explored modern AI integrations in real-world projects.",
+      "thumbnail": "https://i.postimg.cc/qvLgqCDk/MERN-STACK-UDEMY-CERTIFICATE.jpg",
+      "fullImage": "https://i.postimg.cc/qvLgqCDk/MERN-STACK-UDEMY-CERTIFICATE.jpg",
+      "verifyUrl": "https://ude.my/UC-43346e61-36dd-4374-a30d-d97f8855ebe1",
+      "skills": [
+        "MongoDB, Express.js, React.js, Node.js",
+        "GenAI Integrations in Web Apps",
+        "Full Stack Project Development",
+        "API Handling & RESTful Services",
+        "Frontend & Backend Deployment",
+        "Authentication and Authorization"
+      ]
+    }
+    ,    
     {
       id: 12,
       name: "Full Stack Web Development with Python",

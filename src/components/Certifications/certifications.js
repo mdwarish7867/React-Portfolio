@@ -63,24 +63,47 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
-      "id": 13,
-      "name": "Full Stack Web Development With MERN STACK & GenAI 2025",
-      "authority": "Udemy (Masynctech Coding School)",
-      "date": "July 2025",
-      "description": "🚀 Completed an 89.5-hour hands-on course on MERN Stack and GenAI. Developed full stack web applications and explored modern AI integrations in real-world projects.",
-      "thumbnail": "https://i.postimg.cc/qvLgqCDk/MERN-STACK-UDEMY-CERTIFICATE.jpg",
-      "fullImage": "https://i.postimg.cc/qvLgqCDk/MERN-STACK-UDEMY-CERTIFICATE.jpg",
-      "verifyUrl": "https://ude.my/UC-43346e61-36dd-4374-a30d-d97f8855ebe1",
-      "skills": [
+      id: 14,
+      name: "Python 101 for Data Science",
+      authority: "Cognitive Class (Powered by IBM Developer Skills Network)",
+      date: "July 2025",
+      description:
+        "📘 Successfully completed the 'Python 101 for Data Science' course offered by Cognitive Class and powered by IBM. Gained foundational knowledge of Python programming in the context of data science applications.",
+      thumbnail:
+        "https://i.postimg.cc/nhb1hW8r/IBM-PY0101-EN-Certificate-Cognitive-Class-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/nhb1hW8r/IBM-PY0101-EN-Certificate-Cognitive-Class-page-0001.jpg",
+      verifyUrl:
+        "https://courses.cognitiveclass.ai/certificates/ee529c26a0cd43ebbf39c812f7fd6352",
+      skills: [
+        "Python Programming Basics",
+        "Data Structures in Python",
+        "Control Flow and Loops",
+        "Functions and Modules",
+        "Data Science Fundamentals",
+      ],
+    },
+    {
+      id: 13,
+      name: "Full Stack Web Development With MERN STACK & GenAI 2025",
+      authority: "Udemy (Masynctech Coding School)",
+      date: "July 2025",
+      description:
+        "🚀 Completed an 89.5-hour hands-on course on MERN Stack and GenAI. Developed full stack web applications and explored modern AI integrations in real-world projects.",
+      thumbnail:
+        "https://i.postimg.cc/qvLgqCDk/MERN-STACK-UDEMY-CERTIFICATE.jpg",
+      fullImage:
+        "https://i.postimg.cc/qvLgqCDk/MERN-STACK-UDEMY-CERTIFICATE.jpg",
+      verifyUrl: "https://ude.my/UC-43346e61-36dd-4374-a30d-d97f8855ebe1",
+      skills: [
         "MongoDB, Express.js, React.js, Node.js",
         "GenAI Integrations in Web Apps",
         "Full Stack Project Development",
         "API Handling & RESTful Services",
         "Frontend & Backend Deployment",
-        "Authentication and Authorization"
-      ]
-    }
-    ,    
+        "Authentication and Authorization",
+      ],
+    },
     {
       id: 12,
       name: "Full Stack Web Development with Python",

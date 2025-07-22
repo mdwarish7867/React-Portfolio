@@ -63,6 +63,44 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+      id: 16,
+      name: "Data Science & Analytics",
+      authority: "HP LIFE (HP Foundation)",
+      date: "July 2025",
+      description:
+        "📊 Successfully completed the 'Data Science & Analytics' course by HP LIFE. Learned the basics of collecting, organizing, and analyzing data to support informed decision-making in businesses.",
+      thumbnail: "https://i.postimg.cc/t4GWWk9v/data-page-0001.jpg",
+      fullImage: "https://i.postimg.cc/t4GWWk9v/data-page-0001.jpg",
+      verifyUrl: "https://www.life-global.org/en", // replace if needed
+      skills: [
+        "Data Analysis",
+        "Data Organization",
+        "Data-Driven Decision Making",
+        "Information Literacy",
+        "Data Literacy",
+      ],
+    },
+
+    {
+      id: 15,
+      name: "AI for Beginners",
+      authority: "HP LIFE (HP Foundation)",
+      date: "July 2025",
+      description:
+        "🤖 Successfully completed the 'AI for Beginners' course by HP LIFE. Gained a foundational understanding of artificial intelligence, its applications in business, the role of data, and its ethical implications.",
+      thumbnail: "https://i.postimg.cc/L8kfTPX9/AI-page-0001.jpg",
+      fullImage: "https://i.postimg.cc/L8kfTPX9/AI-page-0001.jpg",
+      verifyUrl: "https://www.life-global.org/en", // replace with actual if available
+      skills: [
+        "Artificial Intelligence Basics",
+        "AI in Business",
+        "Data and AI",
+        "Ethical Implications of AI",
+        "Tech Awareness",
+      ],
+    },
+
+    {
       id: 14,
       name: "Python 101 for Data Science",
       authority: "Cognitive Class (Powered by IBM Developer Skills Network)",

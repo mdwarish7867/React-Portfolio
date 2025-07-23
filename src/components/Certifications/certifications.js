@@ -63,6 +63,105 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+      id: 20,
+      name: "Effective Presentations",
+      authority: "HP LIFE (HP Foundation)",
+      date: "July 2025",
+      description:
+        "🎤 Completed the 'Effective Presentations' course by HP LIFE. Gained confidence and techniques to deliver impactful presentations in business settings.",
+      thumbnail:
+        "https://i.postimg.cc/hvdT6wN6/Effective-Presentations-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/hvdT6wN6/Effective-Presentations-page-0001.jpg",
+      verifyUrl: "https://www.life-global.org/en",
+      skills: [
+        "Presentation Skills",
+        "Public Speaking",
+        "Communication",
+        "Confidence Building",
+        "Business Communication",
+      ],
+    },
+    {
+      id: 19,
+      name: "Resume Writing and Job Interviewing",
+      authority: "HP LIFE (HP Foundation)",
+      date: "July 2025",
+      description:
+        "📝 Completed 'Resume Writing and Job Interviewing' from HP LIFE. Developed skills for creating impactful resumes and performing well in job interviews.",
+      thumbnail:
+        "https://i.postimg.cc/CMBGRBd7/Resume-Writing-and-Job-Interviewing-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/CMBGRBd7/Resume-Writing-and-Job-Interviewing-page-0001.jpg",
+      verifyUrl: "https://www.life-global.org/en",
+      skills: [
+        "Resume Writing",
+        "Interview Preparation",
+        "Professional Communication",
+        "Job Search Skills",
+        "Career Development",
+      ],
+    },
+    {
+      id: 18,
+      name: "Social Media Marketing",
+      authority: "HP LIFE (HP Foundation)",
+      date: "July 2025",
+      description:
+        "📱 Successfully completed the 'Social Media Marketing' course by HP LIFE. Learned how to promote products and services effectively through various social media channels.",
+      thumbnail:
+        "https://i.postimg.cc/pT7K0xcK/Social-Media-Marketing-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/pT7K0xcK/Social-Media-Marketing-page-0001.jpg",
+      verifyUrl: "https://www.life-global.org/en",
+      skills: [
+        "Social Media Strategy",
+        "Content Marketing",
+        "Digital Marketing",
+        "Audience Engagement",
+        "Brand Awareness",
+      ],
+    },
+    {
+      id: 17,
+      name: "Effective Business Websites",
+      authority: "HP LIFE (HP Foundation)",
+      date: "July 2025",
+      description:
+        "🌐 Completed the 'Effective Business Websites' course by HP LIFE. Gained practical insights into building and maintaining a professional business website that attracts and engages customers.",
+      thumbnail:
+        "https://i.postimg.cc/PxNmzNyt/Effective-Business-Websites-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/PxNmzNyt/Effective-Business-Websites-page-0001.jpg",
+      verifyUrl: "https://www.life-global.org/en",
+      skills: [
+        "Website Planning",
+        "Web Content Strategy",
+        "Digital Presence",
+        "Online Business",
+        "User Engagement",
+      ],
+    },
+    {
+      id: 16,
+      name: "Data Science & Analytics",
+      authority: "HP LIFE (HP Foundation)",
+      date: "July 2025",
+      description:
+        "📊 Successfully completed the 'Data Science & Analytics' course by HP LIFE. Learned the basics of collecting, organizing, and analyzing data to support informed decision-making in businesses.",
+      thumbnail: "https://i.postimg.cc/t4GWWk9v/data-page-0001.jpg",
+      fullImage: "https://i.postimg.cc/t4GWWk9v/data-page-0001.jpg",
+      verifyUrl: "https://www.life-global.org/en",
+      skills: [
+        "Data Analysis",
+        "Data Organization",
+        "Data-Driven Decision Making",
+        "Information Literacy",
+        "Data Literacy",
+      ],
+    },
+
+    {
       id: 16,
       name: "Data Science & Analytics",
       authority: "HP LIFE (HP Foundation)",

@@ -63,6 +63,46 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+      id: 22,
+      name: "Data Structures and Algorithms Using Java - An Interactive Way",
+      authority: "Onwingspan",
+      date: "July 2025",
+      description:
+        "📚 Successfully completed the 'Data Structures and Algorithms Using Java – An Interactive Way' course. Enhanced problem-solving skills with practical knowledge of arrays, linked lists, stacks, queues, trees, and algorithms.",
+      thumbnail:
+        "https://i.postimg.cc/Wzr89fG4/Data-Structures-and-Algorithms-Using-Java-An-Interactive-Way-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/Wzr89fG4/Data-Structures-and-Algorithms-Using-Java-An-Interactive-Way-page-0001.jpg",
+      verifyUrl: "https://verify.onwingspan.com/",
+      skills: [
+        "Data Structures",
+        "Algorithms",
+        "Java Programming",
+        "Problem Solving",
+        "Coding Interviews",
+      ],
+    },
+    {
+      id: 21,
+      name: "Learning Full Stack Development",
+      authority: "Onwingspan",
+      date: "July 2025",
+      description:
+        "🌐 Completed the 'Learning Full Stack Development' course. Acquired skills in frontend & backend development, API integration, and deployment workflows to build real-world full stack web applications.",
+      thumbnail:
+        "https://i.postimg.cc/JnSK5WBg/Learning-Full-Stack-Development-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/JnSK5WBg/Learning-Full-Stack-Development-page-0001.jpg",
+      verifyUrl: "https://verify.onwingspan.com/",
+      skills: [
+        "Full Stack Development",
+        "Frontend Development",
+        "Backend Development",
+        "API Integration",
+        "Web Deployment",
+      ],
+    },
+    {
       id: 20,
       name: "Effective Presentations",
       authority: "HP LIFE (HP Foundation)",
@@ -207,9 +247,9 @@ const Certifications = () => {
       description:
         "📘 Successfully completed the 'Python 101 for Data Science' course offered by Cognitive Class and powered by IBM. Gained foundational knowledge of Python programming in the context of data science applications.",
       thumbnail:
-        "https://i.postimg.cc/nhb1hW8r/IBM-PY0101-EN-Certificate-Cognitive-Class-page-0001.jpg",
+        "https://i.postimg.cc/cHvX3J6w/IBM-PY0101-EN-Certificate-Cognitive-Class-page-0001.jpg",
       fullImage:
-        "https://i.postimg.cc/nhb1hW8r/IBM-PY0101-EN-Certificate-Cognitive-Class-page-0001.jpg",
+        "https://i.postimg.cc/cHvX3J6w/IBM-PY0101-EN-Certificate-Cognitive-Class-page-0001.jpg",
       verifyUrl:
         "https://courses.cognitiveclass.ai/certificates/ee529c26a0cd43ebbf39c812f7fd6352",
       skills: [

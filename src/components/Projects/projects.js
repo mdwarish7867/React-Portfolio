@@ -46,6 +46,20 @@ const Projects = () => {
 
   const projects = [
     {
+      id: 5,
+      title: "🛒 NexusShop - E-commerce Platform",
+      description:
+        "🛍️ NexusShop is a full-featured E-commerce web application where users can browse products, manage carts, and place orders with seamless user experience.",
+      longDescription:
+        "⚙️ Developed using Django and PostgreSQL, NexusShop includes dynamic product listings, user authentication, cart management, and secure checkout flow. It’s my first fully functional e-commerce project designed to simulate a real-world shopping platform.",
+      skills: ["Django", "PostgreSQL", "Bootstrap", "User Authentication"],
+      image: nexusshop1,
+      projectLink: "https://codealpha-shopping-web.onrender.com/",
+      githubLink: "https://github.com/mdwarish7867/CodeAlpha_Shopping_Web.git",
+      date: "July 2025",
+    },
+
+    {
       id: 4,
       title: "🚀 React-Portfolio",
       description:

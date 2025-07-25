@@ -45,25 +45,32 @@ const Experience = () => {
 
   // Experience data - most recent first
   const experiences = [
-    // {
-    //   id: 3,
-    //   role: "Frontend Developer Intern",
-    //   company: "Tech Innovations Inc.",
-    //   duration: "May 2024 - Present",
-    //   location: "Remote",
-    //   description:
-    //     "Working on modern React applications and contributing to open-source projects.",
-    //   responsibilities: [
-    //     "Developed responsive user interfaces using React and Tailwind CSS",
-    //     "Collaborated with UX designers to implement design systems",
-    //     "Optimized application performance reducing load times by 40%",
-    //     "Participated in code reviews and agile development processes",
-    //   ],
-    //   skills: ["React", "JavaScript", "Tailwind CSS", "Git", "Agile"],
-    //   link: "https://techinnovations.com",
-    // },
     {
       id: 2,
+      role: "Full Stack Web Development Intern",
+      company: "CodeAlpha",
+      duration: "July 2025 - August 2025",
+      location: "Remote",
+      description:
+        "Completed a project-based internship where I developed a full-fledged E-commerce web application using Django, MySQL, and Bootstrap.",
+      responsibilities: [
+        "Designed and developed 'NexusShop' — a scalable E-commerce platform",
+        "Implemented user authentication, product listings, and cart management",
+        "Worked with PostgreSQL for database design and CRUD operations",
+        "Deployed the project on Render with PostgreSQL integration",
+        "Collaborated with mentors for code reviews and feature enhancements",
+      ],
+      skills: [
+        "Django",
+        "PostgreSQL",
+        "Bootstrap",
+        "Full Stack Development",
+        "Deployment",
+      ],
+      link: "https://codealpha-shopping-web.onrender.com/",
+    },
+    {
+      id: 1,
       role: "Full Stack Web Development Intern (Python)",
       company: "Shashi Infotech",
       duration: "Feb 2025 - Mar 2025",
@@ -77,24 +84,7 @@ const Experience = () => {
         "Worked under real-time project scenarios and feedback",
       ],
       skills: ["Python", "HTML", "CSS", "Bootstrap", "Django"],
-      link: "", // Optional, you can add a portfolio or GitHub link
-    },
-    {
-      id: 1,
-      role: "Personal Project: MoviesWibe",
-      company: "Self-Initiated",
-      duration: "April 2025 - Present",
-      location: "Remote",
-      description:
-        "Developed a full-featured movie review web app using Django, Bootstrap, and PostgreSQL.",
-      responsibilities: [
-        "Designed models for movie, genre, and reviews",
-        "Implemented user login, admin panel, and movie submission",
-        "Used Bootstrap for responsive UI",
-        "Handled data validation and form submissions securely",
-      ],
-      skills: ["Django", "Python", "HTML", "Bootstrap", "SQL"],
-      link: "https://github.com/mdwarish7867/MoviesVibe",
+      link: "https://moviesvibe-lt7u.onrender.com/",
     },
   ];
 

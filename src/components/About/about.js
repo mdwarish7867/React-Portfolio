@@ -87,7 +87,7 @@ const About = () => {
                     <i className="bi bi-code-square"></i>
                   </div>
                   <div className="exp-details">
-                    <div className="exp-count">20+</div>
+                    <div className="exp-count">5+</div>
                     <div className="exp-title">Projects</div>
                   </div>
                 </div>
@@ -107,7 +107,7 @@ const About = () => {
                     <i className="bi bi-award"></i>
                   </div>
                   <div className="exp-details">
-                    <div className="exp-count">15+</div>
+                    <div className="exp-count">20+</div>
                     <div className="exp-title">Certifications</div>
                   </div>
                 </div>

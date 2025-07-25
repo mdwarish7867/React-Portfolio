@@ -65,7 +65,7 @@ const Certifications = () => {
     {
       id: 22,
       name: "Data Structures and Algorithms Using Java - An Interactive Way",
-      authority: "Onwingspan",
+      authority: "Infosys Springboard",
       date: "July 2025",
       description:
         "📚 Successfully completed the 'Data Structures and Algorithms Using Java – An Interactive Way' course. Enhanced problem-solving skills with practical knowledge of arrays, linked lists, stacks, queues, trees, and algorithms.",
@@ -85,7 +85,7 @@ const Certifications = () => {
     {
       id: 21,
       name: "Learning Full Stack Development",
-      authority: "Onwingspan",
+      authority: "Infosys Springboard",
       date: "July 2025",
       description:
         "🌐 Completed the 'Learning Full Stack Development' course. Acquired skills in frontend & backend development, API integration, and deployment workflows to build real-world full stack web applications.",

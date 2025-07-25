@@ -15,6 +15,7 @@ import first_project from "./cover_img/first_project.png";
 import boot_port from "./cover_img/boot_port.png";
 import moviesvibe from "./cover_img/moviesvibe.png";
 import portfolio from "./cover_img/portfolio.png";
+import nexusshop from "./cover_img/nexusshop.png";
 
 const Projects = () => {
   const [expandedProject, setExpandedProject] = useState(null);
@@ -53,7 +54,7 @@ const Projects = () => {
       longDescription:
         "⚙️ Developed using Django and PostgreSQL, NexusShop includes dynamic product listings, user authentication, cart management, and secure checkout flow. It’s my first fully functional e-commerce project designed to simulate a real-world shopping platform.",
       skills: ["Django", "PostgreSQL", "Bootstrap", "User Authentication"],
-      image: nexusshop1,
+      image: nexusshop,
       projectLink: "https://codealpha-shopping-web.onrender.com/",
       githubLink: "https://github.com/mdwarish7867/CodeAlpha_Shopping_Web.git",
       date: "July 2025",

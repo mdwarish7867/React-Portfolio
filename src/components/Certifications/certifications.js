@@ -63,6 +63,42 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+      id: 24,
+      name: "Interview Toolkit (HR Rounds) — #5DinMicrosoftIn",
+      authority: "Unstop",
+      date: "July 2025",
+      description:
+        "Completed the 'Interview Toolkit' certification under Unstop’s #5DinMicrosoftIn challenge. Focused on HR interview techniques, STAR-method responses, scenario-based questions, and effective personal branding in interviews.",
+      thumbnail: "https://i.postimg.cc/Y9NLZLb6/day3.jpg",
+      fullImage: "https://i.postimg.cc/Y9NLZLb6/day3.jpg",
+      verifyUrl: "https://unstop.com/", // You can replace with actual certificate link if available
+      skills: [
+        "HR Interviews",
+        "Behavioral Questions",
+        "STAR Method",
+        "Communication Skills",
+        "Interview Preparation",
+      ],
+    },
+    {
+      id: 23,
+      name: "Microsoft Interview Preparation — #5DinMicrosoftIn",
+      authority: "Unstop",
+      date: "July 2025",
+      description:
+        "Completed the 'Microsoft Interview Preparation' module as part of Unstop’s #5DinMicrosoftIn challenge. Gained comprehensive insights into Microsoft’s technical interview process, coding strategies, and system design fundamentals.",
+      thumbnail: "https://i.postimg.cc/sxVGrfNt/day1.jpg",
+      fullImage: "https://i.postimg.cc/sxVGrfNt/day1.jpg",
+      verifyUrl: "https://unstop.com/", // You can replace with actual certificate link if available
+      skills: [
+        "Technical Interviews",
+        "System Design",
+        "Coding Strategies",
+        "Interview Preparation",
+        "Problem Solving",
+      ],
+    },
+    {
       id: 22,
       name: "Data Structures and Algorithms Using Java - An Interactive Way",
       authority: "Infosys Springboard",

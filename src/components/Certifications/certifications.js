@@ -63,6 +63,28 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+      id: 25,
+      name: "Deloitte Australia Technology Virtual Internship (Job Simulation)",
+      authority: "Deloitte Australia",
+      date: "July 2025",
+      description:
+        "🚀 Successfully completed Deloitte's Virtual Internship Program simulating real-world client scenarios. 📊 Worked on telemetry data standardization tasks and drafted a professional dashboard development proposal. 🛠️ Gained practical exposure to Deloitte's technology consulting approach and enhanced problem-solving & business communication skills.",
+      thumbnail:
+        "https://i.postimg.cc/3wZ117nS/Deloitte-Virtual-Internship-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/3wZ117nS/Deloitte-Virtual-Internship-page-0001.jpg",
+      verifyUrl:
+        "https://www.theforage.com/virtual-internships/prototype/B4rT7WznWzqL9BfF4/Deloitte-Australia-Technology",
+      skills: [
+        "Data Standardization",
+        "Dashboard Proposal Writing",
+        "Technology Consulting",
+        "Problem Solving",
+        "Client-Focused Communication",
+      ],
+    },
+
+    {
       id: 24,
       name: "Interview Toolkit (HR Rounds) — #5DinMicrosoftIn",
       authority: "Unstop",

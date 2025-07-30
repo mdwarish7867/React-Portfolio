@@ -63,6 +63,26 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+      id: 26,
+      name: "Accenture Interview Preparation",
+      authority: "Unstop",
+      date: "July 2025",
+      description:
+        "Successfully completed the 'Accenture Interview Preparation' course provided by Unstop, enhancing interview skills and readiness for Accenture's hiring process.",
+      thumbnail:
+        "https://i.postimg.cc/MpMJ8h6q/Unstop-Accenture-Interview-Preperation.jpg",
+      fullImage:
+        "https://i.postimg.cc/MpMJ8h6q/Unstop-Accenture-Interview-Preperation.jpg",
+      verifyUrl: "https://unstop.com/",
+      skills: [
+        "Interview Preparation",
+        "Accenture Hiring Process",
+        "Career Readiness",
+        "Communication Skills",
+        "Problem Solving",
+      ],
+    },
+    {
       id: 25,
       name: "Deloitte Australia Technology Virtual Internship (Job Simulation)",
       authority: "Deloitte Australia",

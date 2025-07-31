@@ -63,6 +63,47 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+      id: 28,
+      name: "Web Development Basics",
+      authority: "IBM SkillsBuild (Moodle)",
+      date: "July 2025",
+      description:
+        "Successfully completed the 'Web Development Basics' certification from IBM SkillsBuild in collaboration with Moodle, covering HTML, CSS, responsive design, and web accessibility principles.",
+      thumbnail:
+        "https://i.postimg.cc/tCZqWv6Y/Completion-Certificate-Web-Dev-Basics-Skills-Build-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/tCZqWv6Y/Completion-Certificate-Web-Dev-Basics-Skills-Build-page-0001.jpg",
+      verifyUrl: "https://skillsbuild.org/",
+      skills: [
+        "HTML",
+        "CSS",
+        "Responsive Design",
+        "Web Accessibility",
+        "Frontend Development",
+      ],
+    },
+    {
+      id: 27,
+      name: "Learn Programming with Java",
+      authority: "IBM SkillsBuild (OpenClassrooms)",
+      date: "July 2025",
+      description:
+        "Successfully completed the 'Learn Programming with Java' certification from IBM SkillsBuild in collaboration with OpenClassrooms, focusing on core Java concepts, OOP principles, and backend problem-solving techniques.",
+      thumbnail:
+        "https://i.postimg.cc/BZwZ8fXr/Completion-Certificate-Skills-Build-page-0001-Java.jpg",
+      fullImage:
+        "https://i.postimg.cc/BZwZ8fXr/Completion-Certificate-Skills-Build-page-0001-Java.jpg",
+      verifyUrl: "https://skillsbuild.org/",
+      skills: [
+        "Java Programming",
+        "Object-Oriented Programming",
+        "Problem Solving",
+        "Backend Development",
+        "Coding Fundamentals",
+      ],
+    },
+
+    {
       id: 26,
       name: "Accenture Interview Preparation",
       authority: "Unstop",

@@ -63,6 +63,27 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+  id: 29,
+  name: "Creating Responsive Web Pages using Bootstrap 4",
+  authority: "Infosys Springboard",
+  date: "August 2025",
+  description:
+    "Successfully completed the 'Creating Responsive Web Pages using Bootstrap 4' course offered by Infosys Springboard. This course provided an in-depth understanding of modern frontend development practices with a strong focus on responsive design principles. Learned to effectively utilize Bootstrap's grid system, utility classes, and pre-built components to build responsive, mobile-first layouts. The course also covered UI consistency, scalability optimization, and accessibility compliance with hands-on projects, strengthening frontend development skills.",
+  thumbnail:
+    "https://i.postimg.cc/8kw4LvMK/infosys-bootstrap-page-0001.jpg",
+  fullImage:
+    "https://i.postimg.cc/8kw4LvMK/infosys-bootstrap-page-0001.jpg",
+  verifyUrl: "https://verify.onwingspan.com",
+  skills: [
+    "Bootstrap 4",
+    "Responsive Design",
+    "Frontend Development",
+    "UI/UX Best Practices",
+    "Accessibility Compliance",
+  ],
+}
+,
+    {
       id: 28,
       name: "Web Development Basics",
       authority: "IBM SkillsBuild (Moodle)",

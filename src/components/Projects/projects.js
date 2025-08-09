@@ -16,6 +16,7 @@ import boot_port from "./cover_img/boot_port.png";
 import moviesvibe from "./cover_img/moviesvibe.png";
 import portfolio from "./cover_img/portfolio.png";
 import nexusshop from "./cover_img/nexusshop.png";
+import shecanintern from "./cover_img/shecanintern.png";
 
 const Projects = () => {
   const [expandedProject, setExpandedProject] = useState(null);
@@ -47,7 +48,7 @@ const Projects = () => {
 
   const projects = [
     {
-      id: 5,
+      id: 6,
       title: "🛒 NexusShop - E-commerce Platform",
       description:
         "🛍️ A full-featured MERN-stack E-commerce web app where users can browse products, manage carts, and place orders with a smooth, responsive experience.",
@@ -66,6 +67,30 @@ const Projects = () => {
       projectLink: "https://nexusshop.onrender.com/",
       githubLink: "https://github.com/mdwarish7867/CodeAlpha_Shopping_Web.git",
       date: "July 2025",
+    },
+
+    {
+      id: 5,
+      title: "🎯 She Can Intern - Fundraising Selection Portal",
+      description:
+        "🌟 A full-stack MERN web application designed for a referral-based fundraising internship selection process, featuring secure authentication, user dashboards, and an admin management panel.",
+      longDescription:
+        "⚙️ Developed using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Tailwind CSS with AOS animations, this portal enables interns to register with unique referral codes, track earnings, and view leaderboard rankings. Admins can securely manage users, funding data, and contact messages with full CRUD functionality. Includes 🔑 environment-based admin credential seeding, 🛡️ JWT authentication, 📊 dynamic leaderboard, and 📩 contact form integration. 🚀 Deployed on Render with MongoDB Atlas.",
+      skills: [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "Tailwind CSS",
+        "JWT Authentication",
+        "Admin Dashboard",
+        "AOS Animations",
+      ],
+      image: shecanintern,
+      projectLink: "https://she-can-intern-proj.onrender.com/",
+      githubLink:
+        "https://github.com/mdwarish7867/She_Can_Intern_SelectionProj.git",
+      date: "August 2025",
     },
 
     {

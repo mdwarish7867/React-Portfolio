@@ -68,7 +68,7 @@ const Certifications = () => {
   authority: "Infosys Springboard",
   date: "August 2025",
   description:
-    "Successfully completed the 'Creating Responsive Web Pages using Bootstrap 4' course offered by Infosys Springboard. This course provided an in-depth understanding of modern frontend development practices with a strong focus on responsive design principles. Learned to effectively utilize Bootstrap's grid system, utility classes, and pre-built components to build responsive, mobile-first layouts. The course also covered UI consistency, scalability optimization, and accessibility compliance with hands-on projects, strengthening frontend development skills.",
+    "Successfully completed the 'Creating Responsive Web Pages using Bootstrap 4' course offered by Infosys Springboard. This course provided an in-depth understanding of modern frontend development practices with a strong focus on responsive design principles.",
   thumbnail:
     "https://i.postimg.cc/8kw4LvMK/infosys-bootstrap-page-0001.jpg",
   fullImage:

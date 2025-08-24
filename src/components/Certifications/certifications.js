@@ -63,6 +63,27 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+  id: 30,
+  name: "Full Stack Development Internship",
+  authority: "CodeAlpha",
+  date: "August 2025",
+  description:
+    "✅ Successfully completed a one-month Virtual Internship Program in Full Stack Development at CodeAlpha (20th July 2025 – 20th August 2025). 💻 Gained practical experience in MERN Stack and Django, 🚀 developed scalable web applications, 🧠 enhanced problem-solving and analytical skills, and 🤝 collaborated effectively in a virtual team environment.",
+  thumbnail:
+    "https://i.postimg.cc/BQ9z2Mm7/Code-Alpha-Certificate-page-0001.jpg",
+  fullImage:
+    "https://i.postimg.cc/BQ9z2Mm7/Code-Alpha-Certificate-page-0001.jpg",
+  verifyUrl: "http://www.codealpha.tech",
+  skills: [
+    "Full Stack Development",
+    "MERN Stack",
+    "Django",
+    "Problem Solving",
+    "Team Collaboration",
+    "Web Development",
+  ],
+},
+    {
   id: 29,
   name: "Creating Responsive Web Pages using Bootstrap 4",
   authority: "Infosys Springboard",

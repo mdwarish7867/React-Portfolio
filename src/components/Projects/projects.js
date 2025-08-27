@@ -114,22 +114,8 @@ const Projects = () => {
         "https://github.com/mdwarish7867/She_Can_Intern_SelectionProj.git",
       date: "August 2025",
     },
-
     {
       id: 4,
-      title: "🚀 React-Portfolio",
-      description:
-        "🚀 React-Portfolio is a modern developer website that showcases my skills, projects, and experience — built entirely with React and React-Bootstrap...",
-      longDescription:
-        "🎯 This project marks my journey into component-driven development. I learned about React hooks, conditional rendering, module-based CSS...",
-      skills: ["React", "Api Integration", "Responsive Design"],
-      image: portfolio,
-      projectLink: "https://portfolio-m9f0.onrender.com/",
-      githubLink: "https://github.com/mdwarish7867/React-Portfolio",
-      date: "May 2025",
-    },
-    {
-      id: 3,
       title: "🎬 MoviesVibe",
       description:
         "🍿 MoviesVibe is a clean, interactive React web app that integrates with the OMDB API to fetch and display movie data...",
@@ -141,6 +127,20 @@ const Projects = () => {
       githubLink: "https://github.com/mdwarish7867/MoviesVibe",
       date: "February 2025",
     },
+    {
+      id: 3,
+      title: "🚀 React-Portfolio",
+      description:
+        "🚀 React-Portfolio is a modern developer website that showcases my skills, projects, and experience — built entirely with React and React-Bootstrap...",
+      longDescription:
+        "🎯 This project marks my journey into component-driven development. I learned about React hooks, conditional rendering, module-based CSS...",
+      skills: ["React", "Api Integration", "Responsive Design"],
+      image: portfolio,
+      projectLink: "https://portfolio-m9f0.onrender.com/",
+      githubLink: "https://github.com/mdwarish7867/React-Portfolio",
+      date: "May 2025",
+    },
+
     {
       id: 2,
       title: "Portfolio-Bootstrap",

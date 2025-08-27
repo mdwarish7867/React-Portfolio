@@ -17,6 +17,7 @@ import moviesvibe from "./cover_img/moviesvibe.png";
 import portfolio from "./cover_img/portfolio.png";
 import nexusshop from "./cover_img/nexusshop.png";
 import shecanintern from "./cover_img/shecanintern.png";
+import travelease from "./cover_img/travelease.png";
 
 const Projects = () => {
   const [expandedProject, setExpandedProject] = useState(null);
@@ -47,6 +48,27 @@ const Projects = () => {
   };
 
   const projects = [
+    {
+      id: 7,
+      title: "✈️ TravelEase - Travel Booking Platform",
+      description:
+        "🌍 A Django-based travel booking platform where users can sign up, log in, and manage their travel bookings with an intuitive interface.",
+      longDescription:
+        "⚙️ Developed as part of the TravelEase Internship Selection Assignment, this project provides features like 👤 user authentication & dashboard, 📅 booking & cancellation system, 🏨 tracking of upcoming & past bookings, and 🎨 a responsive UI built with Bootstrap. 🗄️ Integrated with PostgreSQL/MongoDB for persistent storage, and deployed on Render for live testing. 🚀 Demonstrates full-stack web development skills using Django.",
+      skills: [
+        "Django",
+        "Python",
+        "Bootstrap",
+        "HTML",
+        "CSS",
+        "PostgreSQL / MongoDB",
+        "Authentication",
+      ],
+      image: travelease,
+      projectLink: "https://travelease-p0ov.onrender.com/",
+      date: "August 2025",
+    },
+
     {
       id: 6,
       title: "🛒 NexusShop - E-commerce Platform",
@@ -148,7 +170,9 @@ const Projects = () => {
   ];
 
   const sortedProjects = [...projects].sort((a, b) => b.id - a.id);
-  const displayedProjects = showAll ? sortedProjects : sortedProjects.slice(0, 4);
+  const displayedProjects = showAll
+    ? sortedProjects
+    : sortedProjects.slice(0, 4);
 
   return (
     <section

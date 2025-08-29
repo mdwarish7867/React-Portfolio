@@ -63,70 +63,68 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
-  id: 31,
-  name: "Oracle Certified Foundations Associate – Data Platform Foundations (2025)",
-  authority: "Oracle",
-  date: "August 2025",
-  description:
-    "Successfully earned the Oracle Certified Foundations Associate – Data Platform Foundations (2025). This certification validates foundational knowledge of Oracle Data Platform, Oracle Cloud Infrastructure, and modern database services. It demonstrates skills in data management, cloud services, and analytics required for enterprise-level solutions.",
-  thumbnail:
-    "https://i.postimg.cc/26kstjk5/Oracle-Data-Platform-2025-Batch.jpg",
-  fullImage:
-    "https://i.postimg.cc/G2XWn0tx/Oracle-Data-Platform-2025-page-0001.jpg",
-  verifyUrl:
-    "https://catalog-education.oracle.com/pls/certview/sharebadge?id=0CB6CA864152BF6108440503359F41C21C8CC578C9935A7AEB8B642F9DF3B61C",
-  skills: [
-    "Oracle Data Platform",
-    "Oracle Cloud Infrastructure",
-    "Database Services",
-    "Data Management",
-    "Cloud Computing",
-    "Analytics"
-  ]
-}
-,
+      id: 31,
+      name: "Oracle Certified Foundations Associate – Data Platform Foundations (2025)",
+      authority: "Oracle",
+      date: "August 2025",
+      description:
+        "Successfully earned the Oracle Certified Foundations Associate – Data Platform Foundations (2025). This certification validates foundational knowledge of Oracle Data Platform, Oracle Cloud Infrastructure, and modern database services. It demonstrates skills in data management, cloud services, and analytics required for enterprise-level solutions.",
+      thumbnail:
+        "https://i.postimg.cc/3wTNdGBb/Oracle-Data-Platform-2025-Batch.png",
+      fullImage:
+        "https://i.postimg.cc/G2XWn0tx/Oracle-Data-Platform-2025-page-0001.jpg",
+      verifyUrl:
+        "https://catalog-education.oracle.com/pls/certview/sharebadge?id=0CB6CA864152BF6108440503359F41C21C8CC578C9935A7AEB8B642F9DF3B61C",
+      skills: [
+        "Oracle Data Platform",
+        "Oracle Cloud Infrastructure",
+        "Database Services",
+        "Data Management",
+        "Cloud Computing",
+        "Analytics",
+      ],
+    },
     {
-  id: 30,
-  name: "Full Stack Development Internship",
-  authority: "CodeAlpha",
-  date: "August 2025",
-  description:
-    "✅ Successfully completed a one-month Virtual Internship Program in Full Stack Development at CodeAlpha (20th July 2025 – 20th August 2025). 💻 Gained practical experience in MERN Stack and Django, 🚀 developed scalable web applications, 🧠 enhanced problem-solving and analytical skills, and 🤝 collaborated effectively in a virtual team environment.",
-  thumbnail:
-    "https://i.postimg.cc/BQ9z2Mm7/Code-Alpha-Certificate-page-0001.jpg",
-  fullImage:
-    "https://i.postimg.cc/BQ9z2Mm7/Code-Alpha-Certificate-page-0001.jpg",
-  verifyUrl: "http://www.codealpha.tech",
-  skills: [
-    "Full Stack Development",
-    "MERN Stack",
-    "Django",
-    "Problem Solving",
-    "Team Collaboration",
-    "Web Development",
-  ],
-},
+      id: 30,
+      name: "Full Stack Development Internship",
+      authority: "CodeAlpha",
+      date: "August 2025",
+      description:
+        "✅ Successfully completed a one-month Virtual Internship Program in Full Stack Development at CodeAlpha (20th July 2025 – 20th August 2025). 💻 Gained practical experience in MERN Stack and Django, 🚀 developed scalable web applications, 🧠 enhanced problem-solving and analytical skills, and 🤝 collaborated effectively in a virtual team environment.",
+      thumbnail:
+        "https://i.postimg.cc/BQ9z2Mm7/Code-Alpha-Certificate-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/BQ9z2Mm7/Code-Alpha-Certificate-page-0001.jpg",
+      verifyUrl: "http://www.codealpha.tech",
+      skills: [
+        "Full Stack Development",
+        "MERN Stack",
+        "Django",
+        "Problem Solving",
+        "Team Collaboration",
+        "Web Development",
+      ],
+    },
     {
-  id: 29,
-  name: "Creating Responsive Web Pages using Bootstrap 4",
-  authority: "Infosys Springboard",
-  date: "August 2025",
-  description:
-    "Successfully completed the 'Creating Responsive Web Pages using Bootstrap 4' course offered by Infosys Springboard. This course provided an in-depth understanding of modern frontend development practices with a strong focus on responsive design principles.",
-  thumbnail:
-    "https://i.postimg.cc/8kw4LvMK/infosys-bootstrap-page-0001.jpg",
-  fullImage:
-    "https://i.postimg.cc/8kw4LvMK/infosys-bootstrap-page-0001.jpg",
-  verifyUrl: "https://verify.onwingspan.com",
-  skills: [
-    "Bootstrap 4",
-    "Responsive Design",
-    "Frontend Development",
-    "UI/UX Best Practices",
-    "Accessibility Compliance",
-  ],
-}
-,
+      id: 29,
+      name: "Creating Responsive Web Pages using Bootstrap 4",
+      authority: "Infosys Springboard",
+      date: "August 2025",
+      description:
+        "Successfully completed the 'Creating Responsive Web Pages using Bootstrap 4' course offered by Infosys Springboard. This course provided an in-depth understanding of modern frontend development practices with a strong focus on responsive design principles.",
+      thumbnail:
+        "https://i.postimg.cc/8kw4LvMK/infosys-bootstrap-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/8kw4LvMK/infosys-bootstrap-page-0001.jpg",
+      verifyUrl: "https://verify.onwingspan.com",
+      skills: [
+        "Bootstrap 4",
+        "Responsive Design",
+        "Frontend Development",
+        "UI/UX Best Practices",
+        "Accessibility Compliance",
+      ],
+    },
     {
       id: 28,
       name: "Web Development Basics",

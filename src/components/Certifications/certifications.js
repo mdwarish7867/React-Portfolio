@@ -130,7 +130,7 @@ const Certifications = () => {
     {
       id: 28,
       name: "Web Development Basics",
-      authority: "IBM SkillsBuild (Moodle)",
+      authority: "IBM SkillsBuild",
       date: "July 2025",
       description:
         "Successfully completed the 'Web Development Basics' certification from IBM SkillsBuild in collaboration with Moodle, covering HTML, CSS, responsive design, and web accessibility principles.",
@@ -150,7 +150,7 @@ const Certifications = () => {
     {
       id: 27,
       name: "Learn Programming with Java",
-      authority: "IBM SkillsBuild (OpenClassrooms)",
+      authority: "IBM SkillsBuild",
       date: "July 2025",
       description:
         "Successfully completed the 'Learn Programming with Java' certification from IBM SkillsBuild in collaboration with OpenClassrooms, focusing on core Java concepts, OOP principles, and backend problem-solving techniques.",

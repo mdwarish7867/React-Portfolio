@@ -63,6 +63,29 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+  id: 31,
+  name: "Oracle Certified Foundations Associate – Data Platform Foundations (2025)",
+  authority: "Oracle",
+  date: "August 2025",
+  description:
+    "Successfully earned the Oracle Certified Foundations Associate – Data Platform Foundations (2025). This certification validates foundational knowledge of Oracle Data Platform, Oracle Cloud Infrastructure, and modern database services. It demonstrates skills in data management, cloud services, and analytics required for enterprise-level solutions.",
+  thumbnail:
+    "https://i.postimg.cc/26kstjk5/Oracle-Data-Platform-2025-Batch.jpg",
+  fullImage:
+    "https://i.postimg.cc/G2XWn0tx/Oracle-Data-Platform-2025-page-0001.jpg",
+  verifyUrl:
+    "https://catalog-education.oracle.com/pls/certview/sharebadge?id=0CB6CA864152BF6108440503359F41C21C8CC578C9935A7AEB8B642F9DF3B61C",
+  skills: [
+    "Oracle Data Platform",
+    "Oracle Cloud Infrastructure",
+    "Database Services",
+    "Data Management",
+    "Cloud Computing",
+    "Analytics"
+  ]
+}
+,
+    {
   id: 30,
   name: "Full Stack Development Internship",
   authority: "CodeAlpha",

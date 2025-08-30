@@ -63,6 +63,30 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+  id: 32,
+  name: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+  authority: "Oracle",
+  date: "August 2025",
+  description:
+    "Successfully earned the Oracle Cloud Infrastructure 2025 Certified Foundations Associate certification. This certification validates foundational knowledge of Oracle Cloud Infrastructure (OCI) services, including compute, storage, networking, identity and access management, databases, and security. It demonstrates skills required to understand cloud fundamentals, architectural principles, and OCI service offerings for enterprise-level solutions.",
+  thumbnail:
+    "https://i.postimg.cc/XY286NND/Oracle-Cloud-Infrastructure-2025.png",
+  fullImage:
+    "https://i.postimg.cc/wBZQ3WmX/Oracle-Cloud-Infrastructure-2025-IMAGE.png",
+  verifyUrl:
+    "https://catalog-education.oracle.com/pls/certview/sharebadge?id=43BFB0289215229E1FE3388733C77596707BCAB3704848035660F9F6A994C5C8",
+  skills: [
+    "Oracle Cloud Infrastructure",
+    "Compute, Storage & Networking",
+    "Identity & Access Management",
+    "Database Services",
+    "Cloud Security",
+    "Cloud Architecture",
+    "Cloud Fundamentals",
+  ],
+},
+
+    {
       id: 31,
       name: "Oracle Certified Foundations Associate – Data Platform Foundations (2025)",
       authority: "Oracle",

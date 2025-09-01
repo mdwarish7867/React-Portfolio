@@ -63,6 +63,31 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+  "id": 33,
+  "name": "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
+  "authority": "Oracle",
+  "date": "September 2025",
+  "description":
+    "Successfully earned the Oracle Cloud Infrastructure 2025 Certified Data Science Professional certification. This certification validates advanced proficiency in applying data science and machine learning techniques using Oracle Cloud Infrastructure. It demonstrates the ability to design, build, and deploy scalable models, automate workflows, and leverage AI-driven insights to solve real-world business challenges.",
+  "thumbnail":
+    "https://i.postimg.cc/cLPpK8Mv/Oracle-Data-Science-batch-copy.png",
+  "fullImage":
+    "https://i.postimg.cc/zfW9TX00/Oracle-data-science-professional-page-0001-copy.png",
+  "verifyUrl":
+    "https://catalog-education.oracle.com/pls/certview/sharebadge?id=0CB6CA864152BF6108440503359F41C26E0912BFBA12851BAA144AF73FD1199A",
+  "credentialId": "102468134OCI25DSOCP",
+  "skills": [
+    "Oracle Cloud Infrastructure",
+    "Data Science",
+    "Machine Learning",
+    "Model Deployment",
+    "Advanced Analytics",
+    "Workflow Automation",
+    "AI Solutions"
+  ]
+}
+,
+    {
   id: 32,
   name: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
   authority: "Oracle",

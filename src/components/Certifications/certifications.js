@@ -63,6 +63,28 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+  "id": 35,
+  "name": "Oracle Cloud Infrastructure 2025 Certified DevOps Professional",
+  "authority": "Oracle",
+  "date": "September 2025",
+  "description": "Successfully earned the Oracle Cloud Infrastructure 2025 Certified DevOps Professional certification. This certification validates advanced knowledge in implementing modern DevOps practices on Oracle Cloud Infrastructure, including CI/CD pipeline automation, container orchestration, infrastructure as code, monitoring, and security best practices. It demonstrates the ability to build, deploy, and manage scalable, reliable, and secure cloud-native applications.",
+  "thumbnail": "https://i.postimg.cc/J0tW4CXN/Oracle-Dev-Ops-Professional-Batch.png",
+  "fullImage": "https://i.postimg.cc/DfYTpmVB/Oracle-Dev-Ops-Professional.png",
+  "verifyUrl": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=0CB6CA864152BF6108440503359F41C2BE7188C9828CCB842BA8C18CAC74B69F",
+  "credentialId": "102468134OCI25DOPOCP",
+  "skills": [
+    "Oracle Cloud Infrastructure",
+    "DevOps",
+    "CI/CD",
+    "Kubernetes",
+    "Infrastructure as Code",
+    "Automation",
+    "Cloud-Native Applications",
+    "Monitoring & Security"
+  ]
+}
+,
+    {
   "id": 34,
   "name": "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
   "authority": "Oracle",

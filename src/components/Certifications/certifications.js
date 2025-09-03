@@ -63,6 +63,27 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+  "id": 34,
+  "name": "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+  "authority": "Oracle",
+  "date": "September 2025",
+  "description": "Successfully earned the Oracle Cloud Infrastructure 2025 Certified Generative AI Professional certification. This certification demonstrates advanced proficiency in building and deploying Generative AI solutions on OCI, covering model fine-tuning, integration, workflow automation, and real-world AI applications. It validates expertise in leveraging Oracle’s cloud-native AI infrastructure to deliver scalable, secure, and intelligent enterprise-grade solutions.",
+  "thumbnail": "https://i.postimg.cc/6Q4nk8Tw/Oracle-Generative-AI-Professional-Batch.png",
+  "fullImage": "https://i.postimg.cc/PxGYTd8D/Oracle-Generative-AI-Professional-page-0001.png",
+  "verifyUrl": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=1A019E4A0DF703457ECA93DC6E930058F97027BDD22AE45D55B87CEC50BC9E3D",
+  "credentialId": "102468134OCI25GAIOCP",
+  "skills": [
+    "Oracle Cloud Infrastructure",
+    "Generative AI",
+    "Prompt Engineering",
+    "Model Deployment",
+    "AI Workflow Automation",
+    "Cloud-Native AI Solutions",
+    "Scalable AI Applications"
+  ]
+}
+,
+    {
   "id": 33,
   "name": "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
   "authority": "Oracle",

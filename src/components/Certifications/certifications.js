@@ -63,6 +63,28 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+  "id": 36,
+  "name": "Oracle Cloud Infrastructure 2025 Certified Architect Associate",
+  "authority": "Oracle",
+  "date": "September 2025",
+  "description": "Successfully earned the Oracle Cloud Infrastructure 2025 Certified Architect Associate certification. This certification demonstrates proficiency in designing secure, scalable, and cost-optimized solutions using Oracle Cloud Infrastructure. It validates hands-on expertise in compute, networking, storage, IAM, governance, and architectural best practices for building reliable and high-performing cloud systems.",
+  "thumbnail": "https://i.postimg.cc/90ymCQBK/OCI-Archietecture-Batch.png",
+  "fullImage": "https://i.postimg.cc/WpZbM5P8/OCI-Archietecture-page-0001.png",
+  "verifyUrl": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=5D8119B101098BF17FEB70CC28F57506D081F851C0D27C61103AD71B200B433A",
+  "credentialId": "102468134OCI25CAA",
+  "skills": [
+    "Oracle Cloud Infrastructure",
+    "Cloud Architecture",
+    "Networking",
+    "Security",
+    "Identity and Access Management (IAM)",
+    "Governance",
+    "Scalable System Design",
+    "Cost Optimization"
+  ]
+}
+,
+    {
   "id": 35,
   "name": "Oracle Cloud Infrastructure 2025 Certified DevOps Professional",
   "authority": "Oracle",

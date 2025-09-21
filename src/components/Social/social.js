@@ -45,7 +45,7 @@ const Social = () => {
     {
       name: "LinkedIn",
       icon: <FaLinkedinIn />,
-      url: "https://www.linkedin.com/in/md-warish-ansari-46b1ab258/",
+      url: "https://www.linkedin.com/in/md-warish-ansari/",
       color: "#0077B5",
     },
     {

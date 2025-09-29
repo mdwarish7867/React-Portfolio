@@ -63,118 +63,212 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
-  "id": 36,
-  "name": "Oracle Cloud Infrastructure 2025 Certified Architect Associate",
-  "authority": "Oracle",
-  "date": "September 2025",
-  "description": "Successfully earned the Oracle Cloud Infrastructure 2025 Certified Architect Associate certification. This certification demonstrates proficiency in designing secure, scalable, and cost-optimized solutions using Oracle Cloud Infrastructure. It validates hands-on expertise in compute, networking, storage, IAM, governance, and architectural best practices for building reliable and high-performing cloud systems.",
-  "thumbnail": "https://i.postimg.cc/90ymCQBK/OCI-Archietecture-Batch.png",
-  "fullImage": "https://i.postimg.cc/WpZbM5P8/OCI-Archietecture-page-0001.png",
-  "verifyUrl": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=5D8119B101098BF17FEB70CC28F57506D081F851C0D27C61103AD71B200B433A",
-  "credentialId": "102468134OCI25CAA",
-  "skills": [
-    "Oracle Cloud Infrastructure",
-    "Cloud Architecture",
-    "Networking",
-    "Security",
-    "Identity and Access Management (IAM)",
-    "Governance",
-    "Scalable System Design",
-    "Cost Optimization"
-  ]
-}
-,
+      id: 40,
+      name: "Software Engineer Intern Role Certification",
+      authority: "HackerRank",
+      date: "September 2025",
+      description:
+        "Achieved the HackerRank Software Engineer Intern Role Certification. This verifies possession of the fundamental technical skills, coding proficiency, and problem-solving abilities necessary to perform effectively and contribute positively in a professional internship setting.",
+      thumbnail:
+        "https://i.postimg.cc/28W4sw5r/software-engineer-intern-certificate-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/28W4sw5r/software-engineer-intern-certificate-page-0001.jpg",
+      verifyUrl: "https://www.hackerrank.com/certificates/8a277fbcbfeo",
+      Credential: "8A277FBCBFEO",
+      skills: [
+        "Software Engineering",
+        "Technical Skills",
+        "Problem Solving",
+        "Coding Practice",
+      ],
+    },
+
     {
-  "id": 35,
-  "name": "Oracle Cloud Infrastructure 2025 Certified DevOps Professional",
-  "authority": "Oracle",
-  "date": "September 2025",
-  "description": "Successfully earned the Oracle Cloud Infrastructure 2025 Certified DevOps Professional certification. This certification validates advanced knowledge in implementing modern DevOps practices on Oracle Cloud Infrastructure, including CI/CD pipeline automation, container orchestration, infrastructure as code, monitoring, and security best practices. It demonstrates the ability to build, deploy, and manage scalable, reliable, and secure cloud-native applications.",
-  "thumbnail": "https://i.postimg.cc/J0tW4CXN/Oracle-Dev-Ops-Professional-Batch.png",
-  "fullImage": "https://i.postimg.cc/DfYTpmVB/Oracle-Dev-Ops-Professional.png",
-  "verifyUrl": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=0CB6CA864152BF6108440503359F41C2BE7188C9828CCB842BA8C18CAC74B69F",
-  "credentialId": "102468134OCI25DOPOCP",
-  "skills": [
-    "Oracle Cloud Infrastructure",
-    "DevOps",
-    "CI/CD",
-    "Kubernetes",
-    "Infrastructure as Code",
-    "Automation",
-    "Cloud-Native Applications",
-    "Monitoring & Security"
-  ]
-}
-,
+      id: 39,
+      name: "Software Engineer Role Certification",
+      authority: "HackerRank",
+      date: "September 2025",
+      description:
+        "Successfully earned the HackerRank Software Engineer Role Certification. This rigorous assessment validated end-to-end expertise in Data Structures, Algorithms, and System Design principles, confirming readiness to contribute effectively across the entire software development lifecycle.",
+      thumbnail:
+        "https://i.postimg.cc/SN9WBrK0/software-engineer-certificate-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/SN9WBrK0/software-engineer-certificate-page-0001.jpg",
+      verifyUrl: "https://www.hackerrank.com/certificates/b9f974b5601c",
+      Credential: "B9F974B5601C",
+      skills: [
+        "Software Engineering",
+        "Algorithms",
+        "Data Structures",
+        "System Design",
+        "Problem Solving",
+        "Coding",
+      ],
+    },
+
     {
-  "id": 34,
-  "name": "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
-  "authority": "Oracle",
-  "date": "September 2025",
-  "description": "Successfully earned the Oracle Cloud Infrastructure 2025 Certified Generative AI Professional certification. This certification demonstrates advanced proficiency in building and deploying Generative AI solutions on OCI, covering model fine-tuning, integration, workflow automation, and real-world AI applications. It validates expertise in leveraging Oracle’s cloud-native AI infrastructure to deliver scalable, secure, and intelligent enterprise-grade solutions.",
-  "thumbnail": "https://i.postimg.cc/6Q4nk8Tw/Oracle-Generative-AI-Professional-Batch.png",
-  "fullImage": "https://i.postimg.cc/PxGYTd8D/Oracle-Generative-AI-Professional-page-0001.png",
-  "verifyUrl": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=1A019E4A0DF703457ECA93DC6E930058F97027BDD22AE45D55B87CEC50BC9E3D",
-  "credentialId": "102468134OCI25GAIOCP",
-  "skills": [
-    "Oracle Cloud Infrastructure",
-    "Generative AI",
-    "Prompt Engineering",
-    "Model Deployment",
-    "AI Workflow Automation",
-    "Cloud-Native AI Solutions",
-    "Scalable AI Applications"
-  ]
-}
-,
+      id: 38,
+      name: "Java (Basic) Skill Certification",
+      authority: "HackerRank",
+      date: "September 2025",
+      description:
+        "Achieved the HackerRank Java (Basic) Skill Certification. This confirms foundational knowledge in Object-Oriented Programming (OOP) principles, fundamental Java syntax, control flow, and basic data structures, providing a strong basis for further backend development.",
+      thumbnail:
+        "https://i.postimg.cc/J4Xbfqhm/java-basic-certificate-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/J4Xbfqhm/java-basic-certificate-page-0001.jpg",
+      verifyUrl: "https://www.hackerrank.com/certificates/90d2c55da3a1",
+      Credential: "90D2C55DA3A1",
+      skills: [
+        "Java",
+        "Object-Oriented Programming (OOP)",
+        "Programming Fundamentals",
+        "Backend Development",
+      ],
+    },
+
     {
-  "id": 33,
-  "name": "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
-  "authority": "Oracle",
-  "date": "September 2025",
-  "description":
-    "Successfully earned the Oracle Cloud Infrastructure 2025 Certified Data Science Professional certification. This certification validates advanced proficiency in applying data science and machine learning techniques using Oracle Cloud Infrastructure. It demonstrates the ability to design, build, and deploy scalable models, automate workflows, and leverage AI-driven insights to solve real-world business challenges.",
-  "thumbnail":
-    "https://i.postimg.cc/cLPpK8Mv/Oracle-Data-Science-batch-copy.png",
-  "fullImage":
-    "https://i.postimg.cc/zfW9TX00/Oracle-data-science-professional-page-0001-copy.png",
-  "verifyUrl":
-    "https://catalog-education.oracle.com/pls/certview/sharebadge?id=0CB6CA864152BF6108440503359F41C26E0912BFBA12851BAA144AF73FD1199A",
-  "credentialId": "102468134OCI25DSOCP",
-  "skills": [
-    "Oracle Cloud Infrastructure",
-    "Data Science",
-    "Machine Learning",
-    "Model Deployment",
-    "Advanced Analytics",
-    "Workflow Automation",
-    "AI Solutions"
-  ]
-}
-,
+      id: 37,
+      name: "JavaScript (Intermediate) Skill Certification",
+      authority: "HackerRank",
+      date: "September 2025",
+      description:
+        "Successfully earned the HackerRank JavaScript (Intermediate) Skill Certification. This validated proficiency in core concepts, including closures, prototypes, asynchronous programming (Promises/async-await), and ES6+ features, essential for dynamic web application development.",
+      thumbnail:
+        "https://i.postimg.cc/SN9WBrKh/javascript-intermediate-certificate-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/SN9WBrKh/javascript-intermediate-certificate-page-0001.jpg",
+      verifyUrl: "https://www.hackerrank.com/certificates/21f78682bfd6",
+      Credential: "21F7B682BFD6",
+      skills: [
+        "JavaScript",
+        "Asynchronous Programming",
+        "Web Development",
+        "ES6",
+        "Front-End Development",
+      ],
+    },
+
     {
-  id: 32,
-  name: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
-  authority: "Oracle",
-  date: "August 2025",
-  description:
-    "Successfully earned the Oracle Cloud Infrastructure 2025 Certified Foundations Associate certification. This certification validates foundational knowledge of Oracle Cloud Infrastructure (OCI) services, including compute, storage, networking, identity and access management, databases, and security. It demonstrates skills required to understand cloud fundamentals, architectural principles, and OCI service offerings for enterprise-level solutions.",
-  thumbnail:
-    "https://i.postimg.cc/XY286NND/Oracle-Cloud-Infrastructure-2025.png",
-  fullImage:
-    "https://i.postimg.cc/wBZQ3WmX/Oracle-Cloud-Infrastructure-2025-IMAGE.png",
-  verifyUrl:
-    "https://catalog-education.oracle.com/pls/certview/sharebadge?id=43BFB0289215229E1FE3388733C77596707BCAB3704848035660F9F6A994C5C8",
-  skills: [
-    "Oracle Cloud Infrastructure",
-    "Compute, Storage & Networking",
-    "Identity & Access Management",
-    "Database Services",
-    "Cloud Security",
-    "Cloud Architecture",
-    "Cloud Fundamentals",
-  ],
-},
+      id: 36,
+      name: "Oracle Cloud Infrastructure 2025 Certified Architect Associate",
+      authority: "Oracle",
+      date: "September 2025",
+      description:
+        "Successfully earned the Oracle Cloud Infrastructure 2025 Certified Architect Associate certification. This certification demonstrates proficiency in designing secure, scalable, and cost-optimized solutions using Oracle Cloud Infrastructure. It validates hands-on expertise in compute, networking, storage, IAM, governance, and architectural best practices for building reliable and high-performing cloud systems.",
+      thumbnail: "https://i.postimg.cc/90ymCQBK/OCI-Archietecture-Batch.png",
+      fullImage:
+        "https://i.postimg.cc/WpZbM5P8/OCI-Archietecture-page-0001.png",
+      verifyUrl:
+        "https://catalog-education.oracle.com/pls/certview/sharebadge?id=5D8119B101098BF17FEB70CC28F57506D081F851C0D27C61103AD71B200B433A",
+      credentialId: "102468134OCI25CAA",
+      skills: [
+        "Oracle Cloud Infrastructure",
+        "Cloud Architecture",
+        "Networking",
+        "Security",
+        "Identity and Access Management (IAM)",
+        "Governance",
+        "Scalable System Design",
+        "Cost Optimization",
+      ],
+    },
+    {
+      id: 35,
+      name: "Oracle Cloud Infrastructure 2025 Certified DevOps Professional",
+      authority: "Oracle",
+      date: "September 2025",
+      description:
+        "Successfully earned the Oracle Cloud Infrastructure 2025 Certified DevOps Professional certification. This certification validates advanced knowledge in implementing modern DevOps practices on Oracle Cloud Infrastructure, including CI/CD pipeline automation, container orchestration, infrastructure as code, monitoring, and security best practices. It demonstrates the ability to build, deploy, and manage scalable, reliable, and secure cloud-native applications.",
+      thumbnail:
+        "https://i.postimg.cc/J0tW4CXN/Oracle-Dev-Ops-Professional-Batch.png",
+      fullImage:
+        "https://i.postimg.cc/DfYTpmVB/Oracle-Dev-Ops-Professional.png",
+      verifyUrl:
+        "https://catalog-education.oracle.com/pls/certview/sharebadge?id=0CB6CA864152BF6108440503359F41C2BE7188C9828CCB842BA8C18CAC74B69F",
+      credentialId: "102468134OCI25DOPOCP",
+      skills: [
+        "Oracle Cloud Infrastructure",
+        "DevOps",
+        "CI/CD",
+        "Kubernetes",
+        "Infrastructure as Code",
+        "Automation",
+        "Cloud-Native Applications",
+        "Monitoring & Security",
+      ],
+    },
+    {
+      id: 34,
+      name: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+      authority: "Oracle",
+      date: "September 2025",
+      description:
+        "Successfully earned the Oracle Cloud Infrastructure 2025 Certified Generative AI Professional certification. This certification demonstrates advanced proficiency in building and deploying Generative AI solutions on OCI, covering model fine-tuning, integration, workflow automation, and real-world AI applications. It validates expertise in leveraging Oracle’s cloud-native AI infrastructure to deliver scalable, secure, and intelligent enterprise-grade solutions.",
+      thumbnail:
+        "https://i.postimg.cc/6Q4nk8Tw/Oracle-Generative-AI-Professional-Batch.png",
+      fullImage:
+        "https://i.postimg.cc/PxGYTd8D/Oracle-Generative-AI-Professional-page-0001.png",
+      verifyUrl:
+        "https://catalog-education.oracle.com/pls/certview/sharebadge?id=1A019E4A0DF703457ECA93DC6E930058F97027BDD22AE45D55B87CEC50BC9E3D",
+      credentialId: "102468134OCI25GAIOCP",
+      skills: [
+        "Oracle Cloud Infrastructure",
+        "Generative AI",
+        "Prompt Engineering",
+        "Model Deployment",
+        "AI Workflow Automation",
+        "Cloud-Native AI Solutions",
+        "Scalable AI Applications",
+      ],
+    },
+    {
+      id: 33,
+      name: "Oracle Cloud Infrastructure 2025 Certified Data Science Professional",
+      authority: "Oracle",
+      date: "September 2025",
+      description:
+        "Successfully earned the Oracle Cloud Infrastructure 2025 Certified Data Science Professional certification. This certification validates advanced proficiency in applying data science and machine learning techniques using Oracle Cloud Infrastructure. It demonstrates the ability to design, build, and deploy scalable models, automate workflows, and leverage AI-driven insights to solve real-world business challenges.",
+      thumbnail:
+        "https://i.postimg.cc/cLPpK8Mv/Oracle-Data-Science-batch-copy.png",
+      fullImage:
+        "https://i.postimg.cc/zfW9TX00/Oracle-data-science-professional-page-0001-copy.png",
+      verifyUrl:
+        "https://catalog-education.oracle.com/pls/certview/sharebadge?id=0CB6CA864152BF6108440503359F41C26E0912BFBA12851BAA144AF73FD1199A",
+      credentialId: "102468134OCI25DSOCP",
+      skills: [
+        "Oracle Cloud Infrastructure",
+        "Data Science",
+        "Machine Learning",
+        "Model Deployment",
+        "Advanced Analytics",
+        "Workflow Automation",
+        "AI Solutions",
+      ],
+    },
+    {
+      id: 32,
+      name: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+      authority: "Oracle",
+      date: "August 2025",
+      description:
+        "Successfully earned the Oracle Cloud Infrastructure 2025 Certified Foundations Associate certification. This certification validates foundational knowledge of Oracle Cloud Infrastructure (OCI) services, including compute, storage, networking, identity and access management, databases, and security. It demonstrates skills required to understand cloud fundamentals, architectural principles, and OCI service offerings for enterprise-level solutions.",
+      thumbnail:
+        "https://i.postimg.cc/XY286NND/Oracle-Cloud-Infrastructure-2025.png",
+      fullImage:
+        "https://i.postimg.cc/wBZQ3WmX/Oracle-Cloud-Infrastructure-2025-IMAGE.png",
+      verifyUrl:
+        "https://catalog-education.oracle.com/pls/certview/sharebadge?id=43BFB0289215229E1FE3388733C77596707BCAB3704848035660F9F6A994C5C8",
+      skills: [
+        "Oracle Cloud Infrastructure",
+        "Compute, Storage & Networking",
+        "Identity & Access Management",
+        "Database Services",
+        "Cloud Security",
+        "Cloud Architecture",
+        "Cloud Fundamentals",
+      ],
+    },
 
     {
       id: 31,

@@ -95,7 +95,7 @@ const Social = () => {
     {
       name: "LeetCode",
       icon: <SiLeetcode />,
-      url: "https://leetcode.com/mdwarish7867/", // Change if different
+      url: "https://leetcode.com/u/mdwarishansari/", // Change if different
       color: "#FFA116",
     },
     {

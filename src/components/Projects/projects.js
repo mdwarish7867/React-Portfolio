@@ -87,7 +87,7 @@ const Projects = () => {
       ],
       image: nexusshop,
       projectLink: "https://nexusshop.onrender.com/",
-      githubLink: "https://github.com/mdwarish7867/CodeAlpha_Shopping_Web.git",
+      githubLink: "https://github.com/mdwarishansari/CodeAlpha_Shopping_Web.git",
       date: "July 2025",
     },
 
@@ -111,7 +111,7 @@ const Projects = () => {
       image: shecanintern,
       projectLink: "https://she-can-intern-proj.onrender.com/",
       githubLink:
-        "https://github.com/mdwarish7867/She_Can_Intern_SelectionProj.git",
+        "https://github.com/mdwarishansari/She_Can_Intern_SelectionProj.git",
       date: "August 2025",
     },
     {
@@ -124,7 +124,7 @@ const Projects = () => {
       skills: ["Django", "Responsive Design", "Python", "dbsqlite3"],
       image: moviesvibe,
       projectLink: "https://moviesvibe-lt7u.onrender.com/",
-      githubLink: "https://github.com/mdwarish7867/MoviesVibe",
+      githubLink: "https://github.com/mdwarishansari/MoviesVibe",
       date: "February 2025",
     },
     {
@@ -137,7 +137,7 @@ const Projects = () => {
       skills: ["React", "Api Integration", "Responsive Design"],
       image: portfolio,
       projectLink: "https://portfolio-m9f0.onrender.com/",
-      githubLink: "https://github.com/mdwarish7867/React-Portfolio",
+      githubLink: "https://github.com/mdwarishansari/React-Portfolio",
       date: "May 2025",
     },
 
@@ -150,8 +150,8 @@ const Projects = () => {
         "💡 This project demonstrates my ability to craft clean user interfaces and responsive layouts without using JavaScript...",
       skills: ["Html5", "Css3", "Bootstrap5", "Responsive Design"],
       image: boot_port,
-      projectLink: "https://mdwarish7867.github.io/Portfolio_Bootstrap/",
-      githubLink: "https://github.com/mdwarish7867/Portfolio_Bootstrap.git",
+      projectLink: "https://mdwarishansari.github.io/Portfolio_Bootstrap/",
+      githubLink: "https://github.com/mdwarishansari/Portfolio_Bootstrap.git",
       date: "November 2024",
     },
     {
@@ -163,8 +163,8 @@ const Projects = () => {
         "✨ This project was designed to provide a smooth and engaging user experience for students and course providers...",
       skills: ["Html5", "Css3", "Github"],
       image: first_project,
-      projectLink: "https://mdwarish7867.github.io/FirstProject/",
-      githubLink: "https://github.com/mdwarish7867/FirstProject.git",
+      projectLink: "https://mdwarishansari.github.io/FirstProject/",
+      githubLink: "https://github.com/mdwarishansari/FirstProject.git",
       date: "April 2024",
     },
   ];

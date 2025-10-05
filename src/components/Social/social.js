@@ -65,7 +65,7 @@ const Social = () => {
     {
       name: "GitHub",
       icon: <FaGithub />,
-      url: "https://github.com/mdwarish7867",
+      url: "https://github.com/mdwarishansari",
       color: "#181717",
     },
     {

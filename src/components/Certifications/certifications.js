@@ -63,6 +63,27 @@ const Certifications = () => {
   // Certifications data - sorted in descending order (newest first)
   const certifications = [
     {
+      id: 41,
+      name: "Software Engineering Job Simulation",
+      authority: "Forage",
+      date: "October 2025",
+      description:
+        "Completed the Forage Software Engineering Job Simulation, engaging in real-world developer tasks such as feature proposal drafting, game object creation, inventory system improvement, and live debugging to strengthen technical and collaborative skills.",
+      thumbnail:
+        "https://i.postimg.cc/cHZrQkcJ/Forage-Software-Engineering-Job-Simulation-page-0001.jpg",
+      fullImage:
+        "https://i.postimg.cc/cHZrQkcJ/Forage-Software-Engineering-Job-Simulation-page-0001.jpg",
+      verifyUrl: "https://www.theforage.com",
+      Credential: "99mnCEMHGAPKBTxAs",
+      skills: [
+        "Software Engineering",
+        "Object-Oriented Programming",
+        "Debugging",
+        "System Design",
+        "Problem Solving",
+      ],
+    },
+    {
       id: 40,
       name: "Software Engineer Intern Role Certification",
       authority: "HackerRank",

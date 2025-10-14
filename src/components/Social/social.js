@@ -6,6 +6,7 @@ import {
   SiLeetcode,
   SiGeeksforgeeks,
   SiHackerrank,
+  SiLinktree,
 } from "react-icons/si";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -60,6 +61,13 @@ const Social = () => {
       icon: <SiGmail />,
       url: "mailto:warishansari018@gmail.com",
       color: "#D14836",
+    },
+
+    {
+      name: "Linktree",
+      icon: <SiLinktree />,
+      url: "https://linktr.ee/mdwarishansari",
+      color: "#43E660",
     },
 
     {
